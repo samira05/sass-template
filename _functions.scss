@@ -1,5 +1,6 @@
 @import "./variables";
 
 
-@mixin color(){
+@mixin color($color){
+    background-color: $color;
 }  
