@@ -1,6 +1,6 @@
 @import "./variables";
 @import "./functions";
 
-
-
-/*Lägg mixins här*/
+body {
+    @include color($redder)
+}
